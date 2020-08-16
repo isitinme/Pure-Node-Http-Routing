@@ -21,6 +21,9 @@ $ curl -XPOST --data 'ABC' http://localhost:8080
 $ ABC
 ```
 
+## More examples:
+[HERE](https://github.com/isitinme/Pure-Node-Http-Routing/blob/master/docs/example.js)
+
 ## Features:
 * Middlewares support
 * GET, POST, PUT, DELETE support
