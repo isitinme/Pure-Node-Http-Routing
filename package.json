@@ -1,6 +1,6 @@
 {
   "name": "pure-node-routing",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Pure Node Routing",
   "main": "index.js",
   "license": "MIT",
