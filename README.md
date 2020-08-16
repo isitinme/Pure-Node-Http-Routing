@@ -2,7 +2,7 @@
 
 TL;DR;
 ```
-const PureHTTP = require('pure-node-routing');
+import {PureHTTP} from 'pure-node-routing';
 
 const app = PureHTTP();
 
@@ -10,7 +10,7 @@ app.get('/api/user', (req, res) => res.end('Hello!'));
 
 app.post('/data', (req, res) => req.pipe(res));
 
-app.listen(8080);
+app.start(8080);
 ```
 
 ```
@@ -22,7 +22,7 @@ $ ABC
 ```
 
 ## More examples:
-[HERE](https://github.com/isitinme/Pure-Node-Http-Routing/blob/master/docs/example.js)
+[HERE](https://github.com/isitinme/Pure-Node-Http-Routing/blob/master/docs/example.ts)
 
 ## Features:
 * Middlewares support
