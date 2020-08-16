@@ -2,7 +2,7 @@
 
 TL;DR;
 ```
-const PureHTTP = require('../src/app');
+const PureHTTP = require('pure-node-routing');
 
 const app = PureHTTP();
 
